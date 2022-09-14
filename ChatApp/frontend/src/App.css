@@ -1,0 +1,115 @@
+.chatPage{
+  background-color: rgb(243, 231, 231);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7vmax;
+  overflow-y: auto;
+}
+
+.chatContainer{
+  background-color: white;
+  height: 60%;
+  width: 50%;
+  border-radius: 0.7vmax;
+  
+}
+
+.header{
+  background-color: rgb(184, 215, 245);
+  height: 15%;
+  font-size: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.chatBox{
+ border: 0.2vmax solid rgb(236, 233, 233);
+ height: 70%;
+ box-sizing: border-box;
+ overflow-y: auto;
+}
+
+.inputBox{
+  border: 0.2vmax solid rgb(241, 238, 238);
+  height: 15%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#chatInput{
+  width: 80%;
+  border: none;
+  padding: 2vmax;
+  background-color: white;
+  outline: none;
+  font-size: 1.2vmax;
+}
+
+.sendBtn{
+  background-color: rgb(238, 148, 96);
+  color: white;
+  border: none;
+  width: 30%;
+  cursor: pointer;
+  font-size: 25px;
+}
+.sendBtn:hover{
+  background-color: rgb(238, 207, 121);
+}
+
+.name{
+  font-size: 30px;
+  margin: 0.8vmax;
+  background-color: gainsboro;
+  width: 50%;
+  padding: 0.8vmax;
+  border-radius: 0.7vmax;
+}
+.message{
+  font-size: 20px;
+}
+
+.right{
+  float: right;
+  background-color: crimson;
+  color: white;
+}
+
+.left {
+  float: left;
+  background-color: rgb(196, 255, 184);
+}
+.time1{
+  margin-right: 400px;
+  margin-left: 25px;
+}
+.time2{
+  margin-top: 20px;
+  margin-left: 900px;
+}
+.tick{
+  margin-left: 450px;
+  margin-bottom: 50px;
+}
+.link{
+  color: blue;
+}
+.typedlink{
+  size: 100px;
+  color: brown;
+}
+.linkarea{
+  border: 1px;
+}
+.image{
+  margin-top: -120px;
+}
+.description{
+  margin-left: 110px;
+}
+.loadmoremessage{
+  margin-left: 100px;
+}
